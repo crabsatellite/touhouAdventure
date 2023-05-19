@@ -13,7 +13,7 @@ This game takes you on an adventurous journey where you play as a wizard, fighti
 
 * Power-ups: Power-ups randomly spawn on the map. When the wizard picks up a power-up, it temporarily increases the wizard's capabilities.
 
-* Custom Maps: The game provides a mechanism to create and add your own custom maps to the gameplay. This greatly enhances the replayability and longevity of the game.
+* Custom Maps: The game provides a mechanism to create and add your own custom maps to the gameplay. This greatly enhances the replayability and longevity of the game. Please refer to level1.txt and level2.txt. 
 
 * Game Status: The game keeps track of the wizard's remaining lives, current stage, power-up status, and attack cooldown. If the wizard loses all lives or completes all stages, the game will display a game-over or victory message accordingly.
 
