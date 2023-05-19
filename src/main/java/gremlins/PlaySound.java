@@ -1,9 +1,8 @@
 package gremlins;
 
-import processing.core.PApplet;
-
-import javax.sound.sampled.*;
 import java.io.File;
+import javax.sound.sampled.*;
+import processing.core.PApplet;
 
 /**
  * =============== Play sound method. Volume 0 ~ 2 =====================//

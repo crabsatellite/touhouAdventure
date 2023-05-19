@@ -1,16 +1,16 @@
 package gremlins.dynamicobjects;
 
+import static gremlins.App.*;
+
 import gremlins.App;
 import gremlins.gamemap.GameMap;
 import gremlins.staticobjects.StaticObjects;
-
 import java.util.List;
-import static gremlins.App.*;
 
 public abstract class Projectile {
+    private final GameMap gameMap;
     private int x;
     private int y;
-    private final GameMap gameMap;
     private int direction;
 
     public Projectile(int x, int y, GameMap gameMap, int direction) {
@@ -22,22 +22,29 @@ public abstract class Projectile {
     }
 
     public int getX () {return x;}
-    public int getY () {return y;}
-    public int getDirection() {
-        return direction;
-    }
-    public GameMap getGameMap() {
-        return gameMap;
-    }
+
     public void setX(int x) {
         this.x = x;
     }
+
+    public int getY () {return y;}
+
     public void setY(int y) {
         this.y = y;
     }
+
+    public int getDirection() {
+        return direction;
+    }
+
     public void setDirection(int direction) {
         this.direction = direction;
     }
+
+    public GameMap getGameMap() {
+        return gameMap;
+    }
+
     public boolean canWalkInThisDirection(List<StaticObjects> staticObjectsList, int x, int y) {
         for (StaticObjects staticObjects : staticObjectsList) {
             int itemX = staticObjects.getRow() * SPRITESIZE;
