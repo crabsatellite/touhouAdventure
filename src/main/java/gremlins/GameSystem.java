@@ -129,7 +129,7 @@ public class GameSystem {
         pApplet.text("GAME OVER", 12 * SPRITESIZE, 19 * SPRITESIZE);
         pApplet.textSize(20);
         pApplet.fill(0, 0, 0);
-        pApplet.text("Press R to retry", 12 * SPRITESIZE, 21 * SPRITESIZE);
+        pApplet.text("Press R to retry", 13 * SPRITESIZE, 21 * SPRITESIZE);
     }
 
     private void drawYouWin() {
@@ -138,7 +138,7 @@ public class GameSystem {
         pApplet.text("YOU WIN", 14 * SPRITESIZE, 19 * SPRITESIZE);
         pApplet.textSize(20);
         pApplet.fill(0, 0, 0);
-        pApplet.text("Press R to retry", 12 * SPRITESIZE, 21 * SPRITESIZE);
+        pApplet.text("Press R to retry", 14 * SPRITESIZE, 21 * SPRITESIZE);
     }
 
     private void drawInformationBar() {
