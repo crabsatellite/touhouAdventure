@@ -3,7 +3,7 @@ X W               X                X
 X                 X                X
 X     X  X   X         XXXXXXG     X
 X                           XG     X
-X     X X  X              X XG     X
+X     X X  X     G        X XG     X
 X X X X          XX       X XG     X
 X X X X                   X       XX
 X X              XXXXXXXX X       XX
@@ -13,19 +13,19 @@ X X   XXX XX     X                XX
 X     X                          XXX
 X     X           X              XXX
 X     X                          XXX
-X     X                          XXX
+X     X         G                XXX
 X     X                          XXX
 X                                XXX
 X                                 XX
-X     X                     X     XX
+X     X      G              X     XX
 XXXX                        X   X XX
 X XX  X              X      X   X  X
 X     X         X    X  XXX X   X  X
-X             X      X  XX  X   X  X
+X         G   X      X  XX  X   X  X
 X            X       X      X      X
 X          X                X      X
 X  XXX XX                          X
-X  X           X               X X X
+X  X     G     X        G      X X X
 X              X               X X X
 X                      X X X  XX X X
 X   XX X XX XX X               XXX X

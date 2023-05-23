@@ -2,12 +2,12 @@
   "levels": [
     {
       "layout": "level1.txt",
-      "wizard_cooldown": 0.3333,
-      "enemy_cooldown": 3.0
+      "wizard_cooldown": 0.5,
+      "enemy_cooldown": 1.0
     },
     {
       "layout": "level2.txt",
-      "wizard_cooldown": 2.0,
+      "wizard_cooldown": 0.3333,
       "enemy_cooldown": 1.0
     }
   ],

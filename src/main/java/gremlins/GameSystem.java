@@ -43,9 +43,6 @@ public class GameSystem {
     }
 
     public void refreshFrame() {
-        System.out.println("refreshFrame");
-        System.out.println("life: " + wizardLives);
-        System.out.println("stage: " + stage);
         if (stage < gameMapList.size()) {
             if (wizardLives != 0) { // In game
                 drawStaticItems();
