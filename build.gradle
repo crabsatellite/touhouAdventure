@@ -13,6 +13,8 @@ plugins {
     id 'application'
 
     id 'jacoco'
+
+    id 'edu.sc.seis.launch4j' version '2.4.4'
 }
 version = '1.0'
 repositories {
@@ -52,4 +54,10 @@ jar {
     from {
         configurations.runtimeClasspath.findAll { it.name.endsWith('jar') }.collect { zipTree(it) }
     }
+}
+
+launch4j {
+    mainClassName = 'gremlins.App'
+    icon = 'src/main/resources/touhou_favicon.ico'
+    outfile = 'touhou_gremlins.exe'
 }
